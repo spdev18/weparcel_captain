@@ -1,0 +1,72 @@
+name: ckeckflutter
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 2.0.0+2
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+  nb_utils: ^7.1.4
+  google_fonts: ^6.2.1  # Verified existing version
+  font_awesome_flutter: ^10.8.0
+  flutter_feather_icons: ^2.0.0+1
+  bottom_bar: ^2.0.1
+  material_design_icons_flutter: ^7.0.7296
+  syncfusion_flutter_charts: ^26.1.40  # Keeping original version for stability
+  country_code_picker: ^3.3.0
+  file_picker: ^8.0.6  # Keeping original version for stability
+  carousel_slider: ^4.2.1  # Keeping original version for stability
+  timeline_tile: ^2.0.0  # Correct existing version
+  shimmer: ^3.0.0
+  get: ^4.7.2
+  email_validator: ^3.0.0
+  cached_network_image: ^3.4.1
+  flutter_screenutil: ^5.9.0
+  get_storage: ^2.1.1
+  flutter_svg: ^2.0.17
+  firebase_core: ^3.1.1  # Keeping original version for stability
+  firebase_messaging: ^15.0.2  # Keeping original version for stability
+  firebase_analytics: ^11.1.0  # Keeping original version for stability
+  url_launcher: ^6.3.1
+  syncfusion_flutter_signaturepad: ^26.1.40  # Matching charts version
+  image_picker: ^1.0.7
+  path_provider: ^2.1.5
+  webview_flutter: ^4.10.0
+  geolocator: ^12.0.0  # Keeping original version for stability
+  geocoding: ^2.1.0  # Matching geolocator version
+  http: ^1.1.0  # Conservative version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.0
+  flutter_lints: ^3.0.0
+
+flutter_icons:
+  image_path: "assets/images/logo2.png"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Rubik-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Rubik-Black.ttf
+          weight: 900
